@@ -1,0 +1,6 @@
+import os
+
+TELEGRAM_API_ID = int(os.getenv("TELEGRAM_API_ID"))
+TELEGRAM_API_HASH = os.getenv("TELEGRAM_API_HASH")
+TELEGRAM_PHONE = os.getenv("TELEGRAM_PHONE")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
